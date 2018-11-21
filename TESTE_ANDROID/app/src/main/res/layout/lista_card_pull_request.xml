@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/imgFotoAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descricao_img_autor"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtNomeAutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgFotoAutor"
+            android:layout_marginTop="5dp"
+            android:text="@string/label_nome_autor"
+            android:textSize="@dimen/lista_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtValNomeAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNomeAutor"
+            android:text="@string/variavel"
+            android:textSize="@dimen/lista_text_size" />
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtValNomeAutor"
+            android:layout_marginTop="5dp"
+            android:text="@string/label_titulo"
+            android:textSize="@dimen/lista_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtValTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitulo"
+            android:text="@string/variavel"
+            android:textSize="@dimen/lista_text_size" />
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtValTitulo"
+            android:layout_marginTop="5dp"
+            android:text="@string/label_data"
+            android:textSize="@dimen/lista_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtValData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtData"
+            android:text="@string/variavel"
+            android:textSize="@dimen/lista_text_size" />
+
+        <TextView
+            android:id="@+id/txtBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtValData"
+            android:layout_marginTop="5dp"
+            android:text="@string/label_body"
+            android:textSize="@dimen/lista_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtValBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtBody"
+            android:text="@string/variavel"
+            android:textSize="@dimen/lista_text_size" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

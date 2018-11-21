@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Teste Android</string>
+
+    <string name="titulo_lista_repositorio">Lista de Repositórios</string>
+    <string name="titulo_pull_requests">Pull Requests</string>
+    <string name="titulo_pagina_web">Página WEB</string>
+
+    <string name="variavel">VARIAVEL</string>
+
+    <string name="label_nome_autor">NOME DO AUTOR</string>
+
+    <string name="label_nome_repositorio">NOME DO REPOSITÓRIO</string>
+    <string name="label_descricao_repositorio">DESCRIÇÃO DO REPOSITÓRIO</string>
+
+    <string name="label_titulo">TÍTULO</string>
+    <string name="label_data">DATA DE CRIAÇÃO</string>
+    <string name="label_body">BODY</string>
+
+    <string name="descricao_img_autor">Foto do autor</string>
+    <string name="descricao_img_star">Starts do autor</string>
+    <string name="descricao_img_fork">Forks do autor</string>
+</resources>
